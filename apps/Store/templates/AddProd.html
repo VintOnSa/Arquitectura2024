@@ -15,13 +15,13 @@
             <form id="formAddProduct" action="/addPro" method="POST" enctype="multipart/form-data" novalidate> {% csrf_token %}
                 <div class="row">
                     <div class="col-md-8 mb-2">
-                        <label for="txTitle">Titulo:</label>
-                        <input name="txTitle" id="txTitle" placeholder="Ingrese Titulo" type="text" class="form-control">
+                        <label for="txTitle">Nombre:</label>
+                        <input name="txTitle" id="txTitle" placeholder="Ingrese Nombre" type="text" class="form-control">
                     </div>
 
                     <div class="col-md-4 mb-2">
-                        <label for="txAuthor">Autor:</label>
-                        <input name="txAuthor" id="txAuthor" placeholder="Ingrese Autor "type="text" class="form-control">
+                        <label for="txAuthor">Vendedor:</label>
+                        <input name="txAuthor" id="txAuthor" placeholder="Ingrese Vendedor "type="text" class="form-control">
                     </div>
 
 
@@ -55,8 +55,8 @@
 
 
                     <div class="col-md-12 mb-2">
-                        <label for="iptImg">Portada:</label>
-                        <input name="iptImg" id="iptImg" placeholder="Seleccione la Portada" type="file" class="form-control">
+                        <label for="iptImg">Imagen:</label>
+                        <input name="iptImg" id="iptImg" placeholder="Seleccione Una Imagen" type="file" class="form-control">
                     </div>
                 </div>
                 <div class="d-flex justify-content-center mt-5">
